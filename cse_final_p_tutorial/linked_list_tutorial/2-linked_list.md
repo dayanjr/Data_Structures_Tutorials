@@ -4,10 +4,10 @@ linked lists in c# are linear data structures, in which the elements are not sto
 
 ![guess_design](Screenshot2.png)
 
-Therefore, linked lists have nodes that contains data fields, and each node is connected with the next node in the list.
+Therefore, linked lists have nodes that contain data fields, and each node is connected with the next node in the list.
 ## Creating and Manipulating Linked List
 
-To create a linked list you should write a code as it follows:
+To create a linked list you should write a code as follows:
 
 ```csharp
 using System;
@@ -25,13 +25,13 @@ class Program {
 }
 ```
 
-it is simple code that uses the namespace System.Collection.Generic, after writing this code you will end up with a empty Linked List, so you will need to use methods to make better use of this concept. 
-## methods of adding elements to the list
+it is simple code that uses the namespace System.Collection.Generic, after writing this code you will end up with an empty Linked List, so you will need to use methods to make better use of this concept. 
+## Methods of adding elements to the list
 AddFirst: This method is used to add a new node or value at the start of the LinkedList.
 AddLast: This method is used to add a new node or value at the end of the LinkedList.
 AddAfter: This method is used to add a new node or value after an existing node in the LinkedList, 
 AddBefore: This method is used to add a new node or value before an existing node in the LinkedList.
-code exemple:
+code example:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -42,11 +42,11 @@ class Program {
     static public void Main()
     {
         LinkedList<string> bandList = new LinkedList<string>();
-        // create a node and use the AddFirst() to add a element to the node.
+        //Create a node and use the AddFirst() to add an element to the node.
         LinkedListNode<string> slipknotNode= bandList.AddFirst("Slipknot");
-        // and then you use the AddLast() method to add a element to the node that you created.
+        // and then you use the AddLast() method to add an element to the node that you created.
         LinkedListNode<string> metallicaNode = bandList.AddLast("Metallica");
-        // after that you can use the AddAfter([name of the node], [element you wish to add]) to add a element after the node that you created and you can use the AddBefore([name of the node], [element you wish to add]) to add a element before the node that you created.
+        //After that you can use the AddAfter([name of the node], [element you wish to add]) to add an element after the node that you created and you can use the AddBefore([name of the node], [element you wish to add]) to add an element before the node that you created.
         bandList.AddAfter(metallicaNode, "Aerosmith");
         bandList.AddBefore(slipknotNode, "Iron Maiden");
         Print(bandList);
@@ -61,13 +61,13 @@ class Program {
     }
 }
 ```
-## methods of removing elements from linked list
+## Methods of removing elements from a linked list
 Clear(): This method is used to remove all nodes from the LinkedList.
 Remove(LinkedListNode): This method is used to remove the specified node from the LinkedList.
 Remove(T): This method is used to remove the first occurrence of the specified value from the LinkedList.
 RemoveFirst(): This method is used to remove the node at the start of the LinkedList.
 RemoveLast(): This method is used to remove the node at the end of the LinkedList.
-code exemple:
+code example:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -78,11 +78,11 @@ class Program {
     static public void Main()
     {
         LinkedList<string> bandList = new LinkedList<string>();
-        // create a node and use the AddFirst() to add a element to the node.
+        //Create a node and use the AddFirst() to add an element to the node.
         LinkedListNode<string> slipknotNode= bandList.AddFirst("Slipknot");
-        // and then you use the AddLast() method to add a element to the node that you created.
+        // and then you use the AddLast() method to add an element to the node that you created.
         LinkedListNode<string> metallicaNode = bandList.AddLast("Metallica");
-        // after that you can use the AddAfter([name of the node], [element you wish to add]) to add a element after the node that you created and you can use the AddBefore([name of the node], [element you wish to add]) to add a element before the node that you created.
+        //After that you can use the AddAfter([name of the node], [element you wish to add]) to add an element after the node that you created and you can use the AddBefore([name of the node], [element you wish to add]) to add an element before the node that you created.
         bandList.AddAfter(metallicaNode, "Aerosmith");
         bandList.AddAfter(slipknotNode, "Iron Maiden");
         bandList.Remove("Aerosmith");
@@ -113,8 +113,8 @@ class Program {
 }
 ```
 ## finding methods:
-You can use the Contains() method in order to see if certain element is present in your list.
-code-exemple:
+You can use the Contains() method to see if a certain element is present in your list.
+code-example:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -129,7 +129,7 @@ class Program {
         LinkedListNode<string> metallicaNode = bandList.AddLast("Metallica");
         bandList.AddAfter(metallicaNode, "Aerosmith");
         bandList.AddAfter(slipknotNode, "Iron Maiden");
-        //find if your band is in your list
+        //find if your band is on your list
          if (bandList.Contains("Iron Maiden") == true)
         {
             Console.WriteLine("Band Found...!!");
@@ -141,10 +141,10 @@ class Program {
     }
 }
 ```
-## Exemple: Spotify
-With a linked list you can create lists with your favorit songs to listen in your phone, so with all the methods listed in demostrated in this tutorial you are capable of creating your own spotify list.
+## Example: Spotify
+With a linked list you can create lists with your favorite songs to listen in your phone, so with all the methods listed demonstrated in this tutorial you are capable of creating your Spotify list.
 ## Problem to solve: Create a Spotify Linked List
-With all the knowledge that you learn in this tutorial, you are ready to create your personal spotify linked list and personalazy it. Therefore, you should be able to solve a problem with a linked list, let's suppose you have a spotify list and you want to add some bands that you like and you also want to take away bands that you don't like from the list, so you need to creat a liked list with all your current favorite bands and print them on the console, and then you clean that list by taking out the bands that you do not like anymore and print them in the console.
+With all the knowledge that you learn in this tutorial, you are ready to create your Spotify linked list and personalize it. Therefore, you should be able to solve a problem with a linked list, let's suppose you have a Spotify list and you want to add some bands that you like and you also want to take away bands that you don't like from the list, so you need to create a liked list with all your current favorite bands and print them on the console, and then you clean that list by taking out the bands that you do not like anymore and print them in the console.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -153,11 +153,11 @@ class Program {
  
     static public void Main()
     {
-        //create linked list
+        //create a linked list
         //create nodes and add elements to them using AddFirst() method
         //use AddAfter() and AddBefore() method to add elements to your linked list
         //print your linked list with all the bands
-        //remove some of the bands in your list by using the remove methods(Remove(),RemoveFirst(),RemoveLast())
+        //remove some of the bands in your list by using the remove methods(Remove(), RemoveFirst(), RemoveLast())
         //print your list without the bands that you removed
     }
 };

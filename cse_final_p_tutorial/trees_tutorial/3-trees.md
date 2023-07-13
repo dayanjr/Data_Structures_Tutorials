@@ -1,12 +1,12 @@
 # Trees
 
-Trees are a representation of a hierarchical format of data, trees are built with nodes that store elements, and every node has two components, data that is the element stored in the node and reference that is the exect location of the node, and in every tree there is a top node called the Root,and below that node there are two other nodes and they are positioned in opisits sides, one is in the right and the other is in the left, to better illustrate this concept there's a image below:
+Trees are a representation of a hierarchical format of data, trees are built with nodes that store elements, and every node has two components, data which are the element stored in the node, and reference is the exact location of the node, and in every tree, there is a top node called the Root, and below that node, there are two other nodes and they are positioned in opposite sides, one is in the right and the other is in the left, to better illustrate this concept there's an image below:
 
 ![guess_design](Screenshot3.png)
 
-Trees are usually used to have a dinamic and efficient database structure to store there data.
+Trees are usually used to have a dynamic and efficient database structure to store their data.
 ## Creating a Binary Tree
-To create a Tree and set up values to the database, you should write a code as it follows:
+To create a Tree and set up values to the database, you should write a code as follows:
 ```csharp
 using System;
 public class BinaryTreeNode
@@ -46,9 +46,9 @@ public class Program
 ```
 with this code you will end up with a binary tree with 7 elements and all of them are going to be placed in this simple tree base structure.
 
-## adding elements to the binary tree
-You can easily add more elements by creating new nodes and add them to specific points in your binary list
-code exemple:
+## Adding elements to the binary tree
+You can easily add more elements by creating new nodes and adding them to specific points in your binary list
+code example:
 ```csharp
 // Add more elements to the binary tree
         BinaryTreeNode newNode1 = new BinaryTreeNode { Value = "Slipknot" };
@@ -58,14 +58,14 @@ code exemple:
         root.Right.Left.Right = newNode2;
 
 ```
-## removing elements from the binary tree
-to remove an element from your binary tree you will need to make use of if statements that are going to lead into recursions, it is more complex than the previous exemple but in code below I will explain each step.
-code exemple:
+## Removing elements from the binary tree
+to remove an element from your binary tree you will need to make use of if statements that are going to lead into recursions, it is more complex than the previous example but in the code below I will explain each step.
+code example:
 ```csharp
-// first, lets suppose you want to remove the value "Aerosmith" from the binary tree, so you will turn that value into an argument to a function that is going to remove it, and you will also use the root of your binary tree as a positional argument.
+//First let's suppose you want to remove the value "Aerosmith" from the binary tree, so you will turn that value into an argument to a function that is going to remove it, and you will also use the root of your binary tree as a positional argument.
     RemoveValue(root, "Aerosmith");
     //here we create the function and set up arguments
-    //this function will work with the position in the hierarch(that is the root argument that we passed to the function above) that is going to the max value to the minimum value, so the function will go over the different leves of the tree to find the value that we desire to remove
+    //this function will work with the position in the hierarch(that is the root argument that we passed to the function above) that is going from the max value to the minimum value, so the function will go over the different levels of the tree to find the value that we desire to remove
     public static BinaryTreeNode RemoveValue(BinaryTreeNode node, string value)
     {
         //here we will return null in case the node is null
@@ -93,7 +93,7 @@ code exemple:
             }
 
             // Case 3: here is in case the Node has two children values
-            // Find the minimum value in the right side of the binary tree using the FindingMinValeu() function
+            // Find the minimum value on the right side of the binary tree using the FindingMinValeu() function
             string minValue = FindMinValue(node.Right);
 
             // Set the current node's value to be equal to the minimum value
@@ -113,7 +113,7 @@ code exemple:
 
         return node;
     }
-    //here we are creating the another function to find the minimum value in the binary tree
+    //here we are creating another function to find the minimum value in the binary tree
     public static string FindMinValue(BinaryTreeNode node)
     {
         string minValue = node.Value;
@@ -127,31 +127,31 @@ code exemple:
         return minValue;
     }
 ```
-## priting values of the binary tree:
-You can print the values of your binary tree using a simple function that will use only one argument that is the root of your binary tree.
-code-exemple:
+## Printing values of the binary tree:
+You can print the values of your binary tree using a simple function that will use only one argument which is the root of your binary tree.
+code-example:
 ```csharp
-// here we will print the values of the binary tree using Inorder traversal with this function below
+//Here we will print the values of the binary tree using Inorder traversal with this function below
         PrintInorder(root);
         public static void PrintInorder(BinaryTreeNode node)
     {
         if (node == null)
             return;
 
-        // here we will Traverse the left side of the tree
+        //Here we will Traverse the left side of the tree
         PrintInorder(node.Left);
 
-        // here we will print the values of the nodes of the binary tree
+        //Here we will print the values of the nodes of the binary tree
         Console.Write(node.Value + " ");
 
-        // here we will Traverse the right side of the tree
+        //Here we will Traverse the right side of the tree
         PrintInorder(node.Right);
     }
 ```
-## Exemple: Spotify
-With a binary tree data base you can create a tree with your favorite songs to listen in your phone, so with all the methods and functions listed and demostrated in this tutorial you are capable of creating your own spotify tree.
+## Example: Spotify
+With a binary tree database, you can create a tree with your favorite songs to listen in your phone, so with all the methods and functions listed and demonstrated in this tutorial you are capable of creating your Spotify tree.
 ## Problem to solve: Create a Spotify Linked List
-With all the knowledge that you learn in this tutorial, you are ready to create your personal spotify list with all the bands that you like in a binary tree structure, so you will create a binary tree and you will add all your favorite bands and you will add and remove one band from your binary tree.
+With all the knowledge that you learn in this tutorial, you are ready to create your Spotify list with all the bands that you like in a binary tree structure, so you will create a binary tree and you will add all your favorite bands and you will add and remove one band from your binary tree.
 ```csharp
 using System;
 
@@ -166,7 +166,7 @@ public class Program
     {
        //set the values to your nodes to make part of your tree
         // Print the values of the binary tree using Inorder traversal
-        // Remove the value of your own choise from the binary tree
+        // Remove the value of your choice from the binary tree
         // Print the updated values of the binary tree using Inorder traversal
         //call your functions here
     }
