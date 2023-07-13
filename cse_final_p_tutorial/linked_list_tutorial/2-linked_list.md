@@ -163,4 +163,4 @@ class Program {
 };
 ```
 ## sample solution:
-[solution](linked_list_solution/Program.cs)
+[solution](/cse_final_p_tutorial/linked_list_solution/Program.cs)

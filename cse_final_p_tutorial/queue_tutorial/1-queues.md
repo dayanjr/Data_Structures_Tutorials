@@ -126,4 +126,4 @@ class Program
 }
 ```
 ## sample solution:
-[solution](queues_solution/linked_list_solution/Program.cs)
+[solution](../queues_solution/linked_list_solution/Program.cs)

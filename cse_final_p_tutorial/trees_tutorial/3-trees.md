@@ -175,4 +175,4 @@ public class Program
 }
 ```
 ## sample solution:
-[solution](tree_solution/Program.cs)
+[solution](/cse_final_p_tutorial/tree_solution/Program.cs)
