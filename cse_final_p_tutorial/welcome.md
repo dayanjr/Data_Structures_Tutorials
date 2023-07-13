@@ -1,5 +1,5 @@
 # Welcome
-Welcome to my C# data structure tutorial, in this tutorial I going to show you how to understand and apply the following code structures:
+Welcome to my C# data structures tutorial, in this tutorial I'm going to show you how to understand and apply the following code structures:
 * Queues
 * Linked List
 * Trees
