@@ -58,6 +58,8 @@ code example:
         root.Right.Left.Right = newNode2;
 
 ```
+The image below illustrate what is happining in these code, and it will help you better visualize this concept:
+![guess_design](Screenshot4.png)
 ## Removing elements from the binary tree
 to remove an element from your binary tree you will need to make use of if statements that are going to lead into recursions, it is more complex than the previous example but in the code below I will explain each step.
 code example:
@@ -127,6 +129,8 @@ code example:
         return minValue;
     }
 ```
+The image below illustrate what is happining in these code, and it will help you better visualize this concept:
+![guess_design](Screenshot5.png)
 ## Printing values of the binary tree:
 You can print the values of your binary tree using a simple function that will use only one argument which is the root of your binary tree.
 code-example:
