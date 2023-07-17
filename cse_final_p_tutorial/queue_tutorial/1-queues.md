@@ -27,7 +27,7 @@ it is simple code that uses the namespace System.Collection.Generic, after writi
 
 ## Queue Enqueue() Method
 
-Enqueue method is used to insert items to the end of the queue, code example:
+Enqueue method is used to insert items to the end of the queue, as shown in the code example:
 
 ```csharp
 using System;
@@ -56,7 +56,7 @@ Some important details about this code are that to properly use a queue, it is n
 
 ## Queue Dequeue() Method
 
-The Dequeue() Method is used to remove the first item in the queue, code example:
+The Dequeue() Method is used to remove the first item in the queue, as shown in the code example:
 
 ```csharp
 using System;
@@ -84,7 +84,7 @@ An important detail to address is that this method not only removes an element i
 
 ## Queue Peek() Method
 
-Queue Peek() Method is used to return the first element in the queue without removing it, code example:
+Queue Peek() Method is used to return the first element in the queue without removing it, as shown in the code example:
 
 ```csharp
 using System;
@@ -109,7 +109,7 @@ class Program
 ## Example: Spotify
 With queues, you can create lists with your favorite songs to listen in your phone, with the enqueue() method you can add to the queue your favorite songs, and with the dequeue() method you can remove songs, and with Peek() method you can print them in the console.
 ## Problem to solve: Create a Spotify Queue
-With all the knowledge that you learn in this tutorial, you are ready to create your spotify queue, and  after you create you will need to remove the first item in your queue and display it, and after that you should display the new first item in your queue, code example:
+With all the knowledge that you learn in this tutorial, you are ready to create your spotify queue, and  after you create you will need to remove the first item in your queue and display it, and after that you should display the new first item in your queue, as shown in the code example:
 ```csharp
 using System;
 using System.Collections.Generic;

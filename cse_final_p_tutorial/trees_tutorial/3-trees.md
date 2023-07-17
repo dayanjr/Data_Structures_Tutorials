@@ -44,11 +44,10 @@ public class Program
     }
 }
 ```
-with this code you will end up with a binary tree with 7 elements and all of them are going to be placed in this simple tree base structure.
+With this code you will end up with a binary tree with 7 elements and all of them are going to be placed in this simple tree base structure.
 
 ## Adding elements to the binary tree
-You can easily add more elements by creating new nodes and adding them to specific points in your binary list
-code example:
+You can easily add more elements by creating new nodes and adding them to specific points in your binary list, as shown in the code example:
 ```csharp
 // Add more elements to the binary tree
         BinaryTreeNode newNode1 = new BinaryTreeNode { Value = "Slipknot" };
@@ -62,7 +61,6 @@ The image below illustrates what is happening in this code, and it will help you
 ![guess_design](Screenshot4.png)
 ## Removing elements from the binary tree
 to remove an element from your binary tree you will need to make use of if statements that are going to lead into recursions, it is more complex than the previous example but in the code below I will explain each step.
-code example:
 ```csharp
 //First let's suppose you want to remove the value "Aerosmith" from the binary tree, so you will turn that value into an argument to a function that is going to remove it, and you will also use the root of your binary tree as a positional argument.
     RemoveValue(root, "Aerosmith");
@@ -132,8 +130,7 @@ code example:
 The image below illustrates what is happening in this code, and it will help you better visualize this concept:
 ![guess_design](Screenshot5.png)
 ## Printing values of the binary tree:
-You can print the values of your binary tree using a simple function that will use only one argument which is the root of your binary tree.
-code-example:
+You can print the values of your binary tree using a simple function that will use only one argument which is the root of your binary tree, as shown in the code-example:
 ```csharp
 //Here we will print the values of the binary tree using Inorder traversal with this function below
         PrintInorder(root);

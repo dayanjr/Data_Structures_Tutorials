@@ -1,6 +1,6 @@
 # Linked list 
 
-linked lists in c# are linear data structures, in which the elements are not stored at contiguous memory locations. The elements in linked lists are linked by using pointers as the image shows:
+Linked lists in c# are linear data structures, in which the elements are not stored at contiguous memory locations. The elements in linked lists are linked by using pointers as the image shows:
 
 ![guess_design](Screenshot2.png)
 
@@ -30,8 +30,7 @@ it is simple code that uses the namespace System.Collection.Generic, after writi
 AddFirst: This method is used to add a new node or value at the start of the LinkedList.
 AddLast: This method is used to add a new node or value at the end of the LinkedList.
 AddAfter: This method is used to add a new node or value after an existing node in the LinkedList, 
-AddBefore: This method is used to add a new node or value before an existing node in the LinkedList.
-code example:
+AddBefore: This method is used to add a new node or value before an existing node in the LinkedList,  as shown in the code-example:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -66,8 +65,7 @@ Clear(): This method is used to remove all nodes from the LinkedList.
 Remove(LinkedListNode): This method is used to remove the specified node from the LinkedList.
 Remove(T): This method is used to remove the first occurrence of the specified value from the LinkedList.
 RemoveFirst(): This method is used to remove the node at the start of the LinkedList.
-RemoveLast(): This method is used to remove the node at the end of the LinkedList.
-code example:
+RemoveLast(): This method is used to remove the node at the end of the LinkedList, as shown in the code example:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -113,8 +111,7 @@ class Program {
 }
 ```
 ## finding methods:
-You can use the Contains() method to see if a certain element is present in your list.
-code-example:
+You can use the Contains() method to see if a certain element is present in your list, as shown in the code example:
 ```csharp
 using System;
 using System.Collections.Generic;
