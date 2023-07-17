@@ -60,7 +60,7 @@ You can easily add more elements by creating new nodes and adding them to specif
 The image below illustrates what is happening in this code, and it will help you better visualize this concept:
 ![guess_design](Screenshot4.png)
 ## Removing elements from the binary tree
-to remove an element from your binary tree you will need to make use of if statements that are going to lead into recursions, it is more complex than the previous example but in the code below I will explain each step.
+To remove an element from your binary tree you will need to make use of if statements that are going to lead into recursions, it is more complex than the previous example but in the code below I will explain each step.
 ```csharp
 //First let's suppose you want to remove the value "Aerosmith" from the binary tree, so you will turn that value into an argument to a function that is going to remove it, and you will also use the root of your binary tree as a positional argument.
     RemoveValue(root, "Aerosmith");

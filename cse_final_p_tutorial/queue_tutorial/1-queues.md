@@ -23,7 +23,7 @@ class Program
 }
 ```
 
-it is simple code that uses the namespace System.Collection.Generic, after writing this code you will end up with an empty queue, so you will need to use methods to make better use of this concept. 
+It is simple code that uses the namespace System.Collection.Generic, after writing this code you will end up with an empty queue, so you will need to use methods to make better use of this concept. 
 
 ## Queue Enqueue() Method
 

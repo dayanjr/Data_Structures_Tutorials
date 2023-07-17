@@ -25,7 +25,7 @@ class Program {
 }
 ```
 
-it is simple code that uses the namespace System.Collection.Generic, after writing this code you will end up with an empty Linked List, so you will need to use methods to make better use of this concept. 
+It is simple code that uses the namespace System.Collection.Generic, after writing this code you will end up with an empty Linked List, so you will need to use methods to make better use of this concept. 
 ## Methods of adding elements to the list
 AddFirst: This method is used to add a new node or value at the start of the LinkedList.
 AddLast: This method is used to add a new node or value at the end of the LinkedList.
@@ -61,9 +61,9 @@ class Program {
 }
 ```
 ## Methods of removing elements from a linked list
-Clear(): This method is used to remove all nodes from the LinkedList.
-Remove(LinkedListNode): This method is used to remove the specified node from the LinkedList.
-Remove(T): This method is used to remove the first occurrence of the specified value from the LinkedList.
+Clear(): This method is used to remove all the nodes from a LinkedList.
+Remove(LinkedListNode): This method is used to remove a specified node from a LinkedList.
+Remove(T): This method is used to remove the first occurrence of a specified value from a LinkedList.
 RemoveFirst(): This method is used to remove the node at the start of the LinkedList.
 RemoveLast(): This method is used to remove the node at the end of the LinkedList, as shown in the code example:
 ```csharp
